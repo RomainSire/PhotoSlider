@@ -1,0 +1,11 @@
+.wrapper {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.wrapped {
+  display: block;
+  margin: auto;
+}

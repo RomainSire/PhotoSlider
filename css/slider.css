@@ -1,0 +1,74 @@
+/*
+ * ALBUM PHOTO
+ */
+.slider-album img {
+  /* La taille des thumbnails */
+  width: 300px;
+  height: auto;
+
+  cursor: pointer;
+}
+
+/*
+ * SLIDER
+ */
+.hidden {
+ display: none;  /* Par défaut le slider n'est pas affiché */
+}
+.slider {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  padding: 20px;
+
+  background: #000d;
+
+  text-align: center;
+  color: #fff;
+}
+.slider img {
+  max-width: 97%;
+  max-height: 95vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.slider h2 {
+  margin: 0;
+}
+.slider .fas {
+  position: absolute;
+  font-size: 2em;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.slider .fa-chevron-circle-left {
+  top: 50%;
+  left: 2%;
+}
+.slider .fa-chevron-circle-right {
+  top: 50%;
+  right: 2%;
+}
+.slider .fa-window-close {
+  top: 2%;
+  right: 2%;
+}
+.slider .fas:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
